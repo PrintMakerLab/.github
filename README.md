@@ -9,7 +9,7 @@ Currently the following features are configured globally:
 * [Pull Request Template](./.github/pull_request_template.md) - template for pull request creation.
 * [Security Links](./SECURITY.md) - Automatic referencing of Jenkins security policies when creating new issues or pull requests
   ([more info](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization))
-* [Release Drafter](./.github/release-drafter.adoc) - Changelog automation
+* [Release Drafter](https://github.com/release-drafter/release-drafter) - Changelog automation
 
 ## Contributing
 * To change existing configurations, just submit a pull request
