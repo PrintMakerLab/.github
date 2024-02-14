@@ -20,9 +20,9 @@ body:
     required: true
 - type: input
   attributes:
-    label: Platform\Device
+    label: Platform, device
     description: Information about the operating system, device model the issue occurs on. Include at least the operating system version
-    placeholder: "Platform\Device"
+    placeholder: "Platform, device"
   validations:
     required: true
 - type: textarea
