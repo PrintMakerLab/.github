@@ -1,0 +1,57 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+template: |
+  # What's Changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...$RESOLVED_VERSION
+
+categories:
+  - title: 'Breaking'
+    label: 'pull request: breaking'
+  - title: 'New'
+    labels: 
+      - 'pull request: feature-major'
+      - 'pull request: feature-minor'
+  - title: 'Bug Fixes'
+    label: 'pull request: bug'
+  - title: 'Maintenance'
+    labels: 
+      - 'pull request: translation'
+      - 'pull request: maintenance'
+  - title: 'Documentation'
+    label: 'pull request: documentation'
+  - title: 'Dependency Updates'
+    labels: 
+      - 'pull request: dependencies'
+    # Default label used by Dependabot
+      - 'dependencies'
+  - title: 'Community'
+    label: 'pull request: community'
+  - title: 'Other changes'
+
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+
+version-resolver:
+  major:
+    labels:
+      - 'pull request: breaking'
+  minor:
+    labels:
+      - 'pull request: feature-major'
+  patch:
+    labels:
+      - 'pull request: community'
+      - 'pull request: feature-minor'
+      - 'pull request: bug'
+      - 'pull request: maintenance'
+      - 'pull request: documentation'
+      - 'pull request: translation'
+      - 'pull request: dependencies'
+    # Default label used by Dependabot
+      - 'dependencies'
+  default: patch
+
+exclude-labels:
+  - 'pull request: skip-changelog'
