@@ -57,6 +57,7 @@ body:
     description: You can add these files and additional information that is relevant to the issue in the comments below.
   validations:
     required: true
+    
 ---
 
 <!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
