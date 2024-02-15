@@ -9,6 +9,7 @@ As a contributor, here are the guidelines we would like you to follow:
  - [Commit Message Guidelines](#commit)
  - [Signing the DCO](#dco)
 
+
 ## <a name="codeOfConduct"></a> Code of Conduct
 
 Help us keep project open and inclusive.
@@ -105,7 +106,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      git commit --all -s
      ```
     Note: the optional commit `--all` command line option will automatically "add" and "rm" edited files.
-    Don't forget to sign-off your commits according to the [Developer Certificate of Origin (DCO)](#dco). See [this guide for how to sign-off correctly](./how_to_sign-off_commits.md).
+    Don't forget to sign-off your commits according to the [Developer Certificate of Origin (DCO)](#dco). See [this guide for how to sign-off correctly][HOWTO].
 
 10. Push your branch to GitHub:
 
@@ -163,7 +164,7 @@ In order to update the commit message of the last commit on your branch:
 > If you need to update the commit message of an earlier commit, you can use `git rebase` in interactive mode.
 > See the [git docs](https://git-scm.com/docs/git-rebase#_interactive_mode) for more details.
 
- Don't forget to sign-off your commits according to the [Developer Certificate of Origin (DCO)](#dco). See [this guide for how to sign-off correctly](./how_to_sign-off_commits.md).
+ Don't forget to sign-off your commits according to the [Developer Certificate of Origin (DCO)](#dco). See [this guide for how to sign-off correctly][HOWTO].
 
 #### After your pull request is merged
 
@@ -274,14 +275,16 @@ The content of the commit message body should contain:
 
 ## <a name="dco"></a> Signing the DCO
 
-Please checkout the [Developer Certificate of Origin (DCO)](#dco) and sign-off all you commits before sending pull requests. 
+Please checkout the [Developer Certificate of Origin (DCO)][DCO] and sign-off all you commits before sending pull requests. 
 For any code changes to be accepted, the DCO must be signed. It's a quick process, we promise!
-To sign-off commits see [this guide](./how_to_sign-off_commits.md).
+To sign-off commits see [this guide][HOWTO].
 
 
 
 
 [github]: https://github.com/PrintMakerLab
 [CodeOfConduct]: ./CODE_OF_CONDUCT.md
+[DCO]: ./dco.md
 [Labels]: ./label-system.md
+[HOWTO]: ./how_to_sign-off_commits.md
 [commit-message-format]: https://www.conventionalcommits.org/en/v1.0.0/
