@@ -242,6 +242,7 @@ Must be one of the following:
 
 ##### Scope
 The scope should be the name of the module, npm package, or global part of the project (as perceived by the person reading the changelog generated from commit messages).
+
 * none/empty string: useful for `test` and `refactor` changes that are done across all places and for docs changes that are not related to a specific place (e.g. `docs: fix typo in tutorial`).
 
 ##### Summary
@@ -257,6 +258,7 @@ Use the summary field to provide a succinct description of the change:
 Just as in the summary, use the imperative, present tense: "fix" not "fixed" nor "fixes".
 
 Explain the motivation for the change in the commit message body. This commit message should explain _why_ you are making the change.
+
 You can include a comparison of the previous behavior with the new behavior in order to illustrate the impact of the change.
 
 
@@ -276,7 +278,9 @@ The content of the commit message body should contain:
 ## <a name="dco"></a> Signing the DCO
 
 Please checkout the [Developer Certificate of Origin (DCO)][DCO] and sign-off all you commits before sending pull requests. 
+
 For any code changes to be accepted, the DCO must be signed. It's a quick process, we promise!
+
 To sign-off commits see [this guide][HOWTO].
 
 
