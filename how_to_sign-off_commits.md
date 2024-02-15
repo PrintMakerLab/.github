@@ -51,7 +51,7 @@ Alternatively you can add this line to your settings.json :
 
 Or, you can sign-off each commit manually
 
-![Screenshot_manual](vs_code_always_sign_off_manual.png)
+![Screenshot_manual](./assets/vs_code_always_sign_off_manual.png)
 
 #### How to amend a sign-off
 
