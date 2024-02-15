@@ -107,7 +107,7 @@ If you've pushed your changes to GitHub already you'll need to force push your b
 #### DCO Failures
 
 If you miss series of commits, you can use the rebase with `-i | --interactive` to edit and append into.
-
+For example, if you have 4 commits in your history (Note the ~4):
 ???+ Example
 
     If you have 4 commits in your history.
