@@ -81,15 +81,15 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 5. In your forked repository, make your changes in a new git branch:
 
-     ```shell
+    ```shell
      git checkout -b my-fix-branch main
-     ```
+    ```
 
      or
 
-       ```shell
+    ```shell
      git checkout -b my-fix-branch develop
-     ```
+    ```
     
     Depends on the base repository branch.
 
@@ -144,21 +144,21 @@ In order to update the commit message of the last commit on your branch:
 
 1. Check out your branch:
 
-    ```shell
+  ```shell
     git checkout my-fix-branch
-    ```
+  ```
 
 2. Amend the last commit and modify the commit message:
 
-    ```shell
+  ```shell
     git commit --amend -s
-    ```
+  ```
 
 3. Push to your GitHub repository:
 
-    ```shell
+  ```shell
     git push --force-with-lease
-    ```
+  ```
 
 > NOTE:<br />
 > If you need to update the commit message of an earlier commit, you can use `git rebase` in interactive mode.
@@ -172,31 +172,31 @@ After your pull request is merged, you can safely delete your branch and pull th
 
 * Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:
 
-    ```shell
+  ```shell
     git push origin --delete my-fix-branch
-    ```
+  ```
 
 * Check out the main branch:
 
-    ```shell
+  ```shell
     git checkout main -f
-    ```
+  ```
 
 * Delete the local branch:
 
-    ```shell
+  ```shell
     git branch -D my-fix-branch
-    ```
+  ```
 
 * Update your local `main` or `develop` (depends on the base repository branch) with the latest upstream version:
 
-    ```shell
+  ```shell
     git pull --ff upstream main
-    ```
+  ```
 
-     ```shell
+  ```shell
     git pull --ff upstream develop
-    ```
+  ```
 
 ## <a name="rules"></a> Coding Rules
 

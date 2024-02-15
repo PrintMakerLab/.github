@@ -15,11 +15,11 @@ The text can either be manually added to your commit body, or you can add either
 Git has a `-s | --signoff` command-line option to append this automatically to your commit message:
 
 ```bash
-git commit --signoff --message 'chore: this is my commit message'
+  git commit --signoff --message 'chore: this is my commit message'
 ```
 
 ```bash
-git commit -s -m "chore: this is my commit message"
+  git commit -s -m "chore: this is my commit message"
 ```
 
 This will use your default git configuration which is found in `.git/config` and usually, it is the `username systemaddress` of the machine which you are using.
@@ -29,13 +29,13 @@ To change this, you can use the following commands (Note these only change the c
 Your name:
 
 ```bash
-git config user.name "FIRST_NAME LAST_NAME"
+  git config user.name "FIRST_NAME LAST_NAME"
 ```
 
 Your email:
 
 ```bash
-git config user.email "MY_NAME@example.com"
+  git config user.email "MY_NAME@example.com"
 ```
 
 #### How to sign-off via Visual Studio Code
@@ -47,7 +47,7 @@ Open the settings, search for “sign-off” and check the box “Enables commit
 
 Alternatively you can add this line to your settings.json :
 ```
-"git.alwaysSignOff": true
+  "git.alwaysSignOff": true
 ```
 
 Or, you can sign-off each commit manually
@@ -59,7 +59,7 @@ Or, you can sign-off each commit manually
 If you have authored a commit that is missing the signed-off-by line, you can amend your commits and push them to GitHub
 
 ```bash
-git commit --amend --signoff
+  git commit --amend --signoff
 ```
 
 If you've pushed your changes to GitHub already you'll need to force push your branch after this with `git push -f`.
@@ -71,7 +71,7 @@ If you miss series of commits, you can use the rebase with `-i | --interactive` 
 For example, if you have 4 commits in your history (Note the ~4):
 
 ```bash
-git rebase HEAD~4 --signoff
-(interactive squash + DCO append)
-git push origin --force
+  git rebase HEAD~4 --signoff
+  (interactive squash + DCO append)
+  git push origin --force
 ```
