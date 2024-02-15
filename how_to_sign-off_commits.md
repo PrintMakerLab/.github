@@ -68,12 +68,9 @@ If you've pushed your changes to GitHub already you'll need to force push your b
 
 If you miss series of commits, you can use the rebase with `-i | --interactive` to edit and append into or use `--signoff` to sign-off commits without rebase
 For example, if you have 4 commits in your history (Note the ~4):
-???+ Example
 
-    If you have 4 commits in your history.
-
-    ```bash
-    git rebase HEAD~4 --signoff
-    (interactive squash + DCO append)
-    git push origin --force
-    ```
+```bash
+git rebase HEAD~4 --signoff
+(interactive squash + DCO append)
+git push origin --force
+```
