@@ -46,6 +46,3 @@
 
 * **status: duplicate** - This issue or pull request already exists.
 * **status: won't fix/do** - This will not be worked on.
-
-
-

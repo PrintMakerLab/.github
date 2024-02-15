@@ -23,9 +23,9 @@ The Print maker Lab project uses a DCO bot for all GitHub pulls to verify that e
 If your Pull Request fails the DCO check, it's necessary to fix the entire commit history in the PR. Although this is a situation we'd like to avoid the best practice is to squash the commit history to a single commit, append the DCO sign-off as described above or interactively in the rebase comment editing process, and force push. For example, if you have 2 commits in your history (Note the ~2):
 
 ```bash
-git rebase HEAD~4 --signoff
-(interactive squash + DCO append)
-git push origin --force
+  git rebase HEAD~4 --signoff
+  (interactive squash + DCO append)
+  git push origin --force
 ```
 
 Note, that in general rewriting history in this way is something that can cause issues with the review process and this should only be done to correct a DCO mistake.
