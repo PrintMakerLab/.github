@@ -42,6 +42,7 @@ git config user.email "MY_NAME@example.com"
 
 You can tell VS Code to append the -s flag to the git commit command, to use signed committing.
 Open the settings, search for “sign-off” and check the box “Enables commit signing with GPG”.
+
 ![Screenshot](./assets/vs_code_always_sign_off.png)
 
 Alternatively you can add this line to your settings.json :
