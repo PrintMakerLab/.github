@@ -26,7 +26,7 @@ If you would like to *implement* a new feature, please consider the size of the 
 
 * For a **Major Feature**, first open an issue and outline your proposal so that it can be discussed.
   This process allows us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
-  Don't forget to add the "issue: feature-majour" label to it.
+  Don't forget to add the "issue: feature-major" label to it.
 
 * **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
   Don't forget to add the "pull request: feature-minor" label to it.
