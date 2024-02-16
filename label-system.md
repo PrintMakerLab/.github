@@ -11,7 +11,7 @@
 * **issue: feature-minor** - New minor feature.
 * **issue: maintenance** - The described issue for technical debt or maintenance.
 * **issue: question** - The issue contains a question about how something works with concrete answers. Used as **default** for 'question' issues.
-
+* **issue: security** - The security issue label. Used as **default** for 'security report' issues.
 
 ## Pull request labels
 
@@ -35,6 +35,9 @@
 * **status: deferred** - We don't have time to work on this for now but intend to in the future.
 * **status: in backlog** - Feature request for which voting has completed and is now in the backlog.
 * **status: release blocker** - Without fixing this cannot release this version.
+* **status: needs more info** - Required additional info from the author.
+* **status: waiting response** - Required additional info from the author. Comes together with **status: needs more info**.
+* **status: stale** - This issue has been marked as stale because it has required additional info or a response from the author for over 7 days.
 
 ### Voting statuses for issues
 
