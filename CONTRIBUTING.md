@@ -239,6 +239,7 @@ Must be one of the following:
 * **refactor**: A code change that neither fixes a bug nor adds a feature
 * **test**: Adding missing tests or correcting existing tests
 * **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+* **translation**: Changes related to support for translation and different languages
 
 ##### Scope
 The scope should be the name of the module, npm package, or global part of the project (as perceived by the person reading the changelog generated from commit messages).
