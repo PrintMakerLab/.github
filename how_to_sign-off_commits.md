@@ -41,7 +41,7 @@ Your email:
 #### How to sign-off via Visual Studio Code
 
 You can tell VS Code to append the -s flag to the git commit command, to use signed committing.
-Open the settings, search for “sign-off” and check the box “Enables commit signing with GPG”.
+Open the settings, search for “sign-off” and check the box “Always signing off.
 
 ![Screenshot](./assets/vs_code_always_sign_off.png)
 
